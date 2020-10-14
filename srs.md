@@ -2,15 +2,16 @@
 
 ## 1. Introduction
 ### 1.1 Purpose
-This SRS describes all  specifications and use cases for Live-Poll. Live-Poll is an live-polling application which elevate your presentation and let you stand out from the crowd. This documents includes a detailed description of the expected application functions as well as non functional requirements.
+This SRS describes all  specifications and use cases for Live-Poll. Live-Poll is an live-polling application which elevates your presentation and lets you stand out from the crowd. This documents includes a detailed description of the expected application functionalities as well as non-functionality requirements.
+
 ### 1.2 Scope
-This SRS applies to the entire Live-Poll Project. 
+This SRS applies to the entire Live-Poll project. 
 
 Actors: 
 - Polling Creator: Person who creates and presents a poll.
-- Polling Participant: Person who takes part at a poll.
+- Polling Participant: Person who participates a poll.
 
-Substystems:
+Subsystems:
 - Admin Dashboard
 - My Polls
 - Poll
@@ -18,6 +19,7 @@ Substystems:
 - Poll Item
 - Q&A
 - User live participating mode
+- 
 ### 1.3 Definitions, Acronyms and Abbreviations
 | Abbrevation |                                        |
 | ----------- | -------------------------------------- |
@@ -37,7 +39,7 @@ Substystems:
 
 
 ### 1.5 Overview
-The following chapters are structured in the following way: In the next chapter, the Overall Description, our vision is described and the Use Case Diagramm gives an overview over the expected functionality. The third chapter provides more detailed information of the requirements. First the expected functions of the Live-Poll aplication are presented. After that further requirements like usability, reliability or performance are listed. In the last chapter youn will find supporting informations.
+The following chapters are structured in the following way: In the next chapter, the Overall Description, our vision is described and the Use Case Diagramm gives an overview over the expected functionality. The third chapter provides more detailed information about the requirements. First, the expected functions of the Live-Poll application are presented. After that, further requirements like usability, reliability or performance are listed. In the last chapter you can find supporting information.
 ## 2. Overall Description
 ### 2.1 Vision
 Live-Poll is the vision of an open-source live-polling application that you can use totally free, no matter if you’re a private person, school, university, society, small or big business etc. Our idea arose from the lack of free live voting/polling software on the Internet that has a nice user flow and is easy to use.
@@ -45,7 +47,7 @@ Live-Poll is the vision of an open-source live-polling application that you can 
 Live Poll will elevate your presentation and let you stand out from the crowd. It is an online tool allowing your audience to live-interact with the presenters, e.g. to answer questions, quizzes, multiple choice questions, word clouds and so much more.
 
 ### 2.2 Use Case Diagram
-![Live-Poll Use Case Diagram](LivePollUCD.png)
+![Live-Poll Use Case Diagram](media/live-poll-ucd.png)
 ## 3. Specific Requirements
 ### 3.1 Functionality
 This section lists and explains every functional requirement. Every subsystem from the UCD is represented through a own subsection.
@@ -108,4 +110,6 @@ The following code standards are going to be applied to the code as far as possi
 3. Each method does one thing
 
 ## 4. Supporting Information
-For more information visit our [blog](https://blog.live-poll.de) or contact us: contact@live-poll.de 
+For more information visit our [blog](https://blog.live-poll.de) or contact us: contact@live-poll.de
+
+© Live-Poll 2020
