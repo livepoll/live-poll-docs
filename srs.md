@@ -107,7 +107,5 @@ The following code standards are going to be applied to the code as far as possi
 2. Use of comments to make code easy to understand
 3. Each method does one thing
 
-
-
 ## 4. Supporting Information
 For more information visit our [blog](https://blog.live-poll.de) or contact us: contact@live-poll.de 
