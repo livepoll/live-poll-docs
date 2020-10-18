@@ -46,10 +46,11 @@ Subsystems:
 - User live participating mode
 
 ### 1.3 Definitions, Acronyms and Abbreviations
-| Abbreviation |                                        |
+| Abbreviation |                                       |
 | ----------- | -------------------------------------- |
 | SRS         | Software Requirements Specification    |
-| UCD         | Use Case Diagram                      |
+| UCD         | Use Case Diagram                       |
+| n/a         | not applicable                         |
 | FAQ         | Frequently Asked Questions             |
 | Q&A         | Question & Answers                     |
 
@@ -61,7 +62,8 @@ Subsystems:
 ### 1.4 References
 |Title                                             |Date      |Publishing Organization|
 |--------------------------------------------------|----------|-----------------------|
-|[Live-Poll Blog](https://blog.live-poll.de)|18.10.2020|Live-Poll              |
+|[Live-Poll Blog](https://blog.live-poll.de)|2020-10-18|Live-Poll              
+|[Live-Poll GitHub](https://github.com/livepoll)|2020-10-18|Live-Poll
 
 
 ### 1.5 Overview
