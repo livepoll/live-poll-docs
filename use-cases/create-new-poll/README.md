@@ -17,7 +17,9 @@
 ### 1.1 Brief Description
 In this use case the user creates a new poll. A name for the poll and a publishing date must be entered.
 ### 1.2 Mockup
-tbd
+Create new poll
+![Step 1](step-1.png)
+
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 ![Activity diagram](activity-diagram.svg)
