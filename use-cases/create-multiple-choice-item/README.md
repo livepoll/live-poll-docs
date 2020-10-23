@@ -17,7 +17,13 @@
 ### 1.1 Brief Description
 In this use case the user can create a new multiple choice poll item. A multiple choice item consists of a question and two or more possible answers.
 ### 1.2 Mockup
-tbd
+#### Select item
+![Mock-1](step-1.png)
+#### Enter question / answers
+![Mock-2](step-2.png)
+#### Options
+![Mock-3](step-3.png)
+
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 ![Activity diagram](activity-diagram.svg)
