@@ -65,7 +65,7 @@ Subsystems:
 |[Live-Poll Blog](https://blog.live-poll.de)|2020-10-18|Live-Poll              
 |[Live-Poll GitHub](https://github.com/livepoll)|2020-10-18|Live-Poll
 |[UC Create multiple choice item](use-cases/create-multiple-choice-item/README.md)|2020-10-20|Live-Poll
-|[UC Create new poll](use-coases/create-new-poll/README.md)|2020-10-20|Live-Poll
+|[UC Create new poll](use-cases/create-new-poll/README.md)|2020-10-20|Live-Poll
 
 
 ### 1.5 Overview
