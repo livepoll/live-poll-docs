@@ -50,9 +50,12 @@ This SAD describes the architecture of the Live-Poll project. The class structur
 The following chapters contain the architectural design, goals, constraints and data views.
 ## 2. Architectural Representation
 Principle of a REST API:
+
 ![Live-Poll RESTful](media/restful.png)
 
+
 Angular concept:
+
 ![Live-Poll Angular concepts](media/angular-overview.png)
 
 ## 3. Architectural Goals and Constraints
