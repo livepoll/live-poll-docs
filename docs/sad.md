@@ -1,27 +1,17 @@
-# Software Architecture Document
+---
+layout: default
+title: SAD
+nav_order: 3
+parent: Project management
+---
+# Software Architecture Document 
+{: .no_toc }
 
-## Table of Contents 
-1. [Introduction](#1-introduction)
-    + [1.1 Purpose](#11-purpose)
-    + [1.2 Scope](#12-scope)
-    + [1.3 Definitions, Acronyms and Abbreviations](#13-definitions-acronyms-and-abbreviations)
-    + [1.4 References](#14-references)
-    + [1.5 Overview](#15-overview)
-2. [Architectural Representation](#2-architectural-representation)
-3. [Architectural Goals and Constraints](#3-architectural-goals-and-constraints)
-4. [User-Case-View](#4-use-case-view)
-    + [4.1 Use-Case Realizations](#41-use-case-realizations)
-5. [Logical View](#5-logical-view)
-    + [5.1 Overview](#51-overview)
-    + [5.2 Architecturally Significant Design Packages](#52-architecturally-significant-design-packages)
-6. [Process View](#6-process-view)
-7. [Deployment View](#7-deployment-view)
-8. [Implementation View](#8-implementation-view)
-    + [8.1 Overview](#81-overview)
-    + [8.2 Layers](#82-layers)
-9. [Data View](#9-data-view)
-10. [Size and Performance](#10-size-and-performance)
-11. [Quality](#11-quality)
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ## 1. Introduction 
 ### 1.1 Purpose
@@ -33,8 +23,9 @@ It is intended to capture and convey the significant architectural decisions whi
 This SAD describes the architecture of the Live-Poll project. The class structure, the use cases and the data base schema are presented.
 
 ### 1.3 Definitions, Acronyms and Abbreviations
+
 | Abbrevation | Description                            |
-| ----------- | -------------------------------------- |
+|:-----------:|:--------------------------------------:|
 | API         | Application programming interface      |
 | MVC         | Model View Controller                  |
 | REST        | Representational state transfer        |
@@ -51,16 +42,16 @@ The following chapters contain the architectural design, goals, constraints and 
 ## 2. Architectural Representation
 Principle of a REST API:
 
-![Live-Poll RESTful](media/restful.png)
+![Live-Poll RESTful](../media/restful.png)
 
 
 Angular concept:
 
-![Live-Poll Angular concepts](media/angular-overview.png)
+![Live-Poll Angular concepts](../media/angular-overview.png)
 
 Spring Boot concept:
 
-![Live-Poll Spring concepts](media/spring-overview.png)
+![Live-Poll Spring concepts](../media/spring-overview.png)
 
 ## 3. Architectural Goals and Constraints
 
@@ -71,7 +62,7 @@ In order to be able to develop the frontend and backend independently of one ano
 On the client side we use Angular to develop a modern single-page client application.
 
 ## 4. Use-Case View
-![Live-Poll Use Case Diagram](media/live-poll-ucd.svg)
+![Live-Poll Use Case Diagram](../media/live-poll-ucd.svg)
 ### 4.1 Use-Case Realizations
 Each use case is individually documented. All use cases are linked in our [SRS](srs.md).
 ## 5 Logical View
@@ -79,18 +70,18 @@ Each use case is individually documented. All use cases are linked in our [SRS](
 This section shows an overview of the classes.
 ### 5.2 Architecturally Significant Design Packages
 This image shows the current classes in our Spring backend:
-![Live-Poll Class-diagram](media/class-diagram-backend.svg)
+![Live-Poll Class-diagram](../media/class-diagram-backend.svg)
 ## 6. Process View
 n/a
 ## 7. Deployment View
-![Live-Poll deployment view](media/deployment-view.svg)
+![Live-Poll deployment view](../media/deployment-view.svg)
 ## 8. Implementation View
 n/a
 ### 8.1 Overview
 ### 8.2 Layers
 ## 9. Data View
 Database ER-Diagram:
-![Live-Poll ER-diagram](https://github.com/livepoll/live-poll-api/blob/develop/media/er-diagram.svg)
+![Live-Poll ER-diagram](https://raw.githubusercontent.com/livepoll/live-poll-api/develop/media/er-diagram.svg)
 ## 10. Size and performance
 n/a
 ## 11. Quality

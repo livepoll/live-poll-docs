@@ -1,28 +1,29 @@
+---
+layout: default
+title: Create new poll
+nav_order: 4
+has_children: true
+parent: Use cases
+grand_parent: Project management
+---
 # Use Case Specification: Create new poll
+{: .no_toc }
 
 ## Table of contents
-1. [Create new poll](#1-create-new-poll)
-    + [1.1 Brief Description](#11-brief-descsription)
-     + [1.2 Mockup](#12-mockup)
-2. [Flow of Events](#2-flow-events)
-    + [2.1 Basic Flow](#21-basic-flow)
-    + [2.2 Feature Files](#22-feature-files)
-    + [2.3 Alternative Flows](#23-alternative-flows)
-3. [Special Requirements](#3-special-requirements)
-4. [Preconditions](#4-preconditions)
-5. [Postconditions](#5-postconditions)
-6. [Extension Points](#6-extension-points)
+{: .no_toc .text-delta }
 
+1. TOC
+{:toc}
 
 ## 1. Create new poll
 ### 1.1 Brief Description
 In this use case the user creates a new poll. A name for the poll and a publishing date must be entered.
 ### 1.2 Mockup
-![Step 1](step-1.png)
+![Step 1](../../media/use-cases/create-new-poll/step-1.png)
 
 ## 2. Flow of Events
 ### 2.1 Basic Flow
-![Activity diagram](activity-diagram.svg)
+![Activity diagram](../../media/use-cases/create-new-poll/activity-diagram.svg)
 
 ### 2.2 Feature Files
 ```gherkin

@@ -1,29 +1,17 @@
-# Live-Poll Software Requirements Specification
+---
+layout: default
+title: SRS
+nav_order: 1
+parent: Project management
+---
+# Software Requirements Specification
+{: .no_toc }
 
 ## Table of contents
-1. [Introduction](#1-introduction)
-    + [1.1 Purpose](#11-purpose)
-    + [1.2 Scope](#12-scope)
-    + [1.3 Definitions, Acronyms and Abbreviations](#13-definitions-acronyms-and-abbreviations)
-    + [1.4 References](#14-references)
-    + [1.5 Overview](#15-overview)
-2. [Overall Description](#2-overall-description)
-    + [2.1 Vision](#21-vision)
-    + [2.2 Use Case Diagram](#22-use-case-diagram)
-3. [Specific Requirements](#3-specific-requirements)
-    + [3.1 Functionality](#31-functionality)
-    + [3.2 Usability](#32-usability)
-    + [3.3 Reliability](#33-reliability)
-    + [3.4 Performance](#34-performance)
-    + [3.5 Supportability](#35-supportability)
-    + [3.6 Design Constraints](#36-design-constraints)
-    + [3.7 Online User Documentation and Help System Requirements](#37-online-user-documentation-and-help-system-requirements)
-    + [3.8 Purchased Components](#38-purchased-components)
-    + [3.9 Interfaces](#39-interfaces)
-    + [3.10 Licensing Requirements](#310-licensing-requirements)
-    + [3.11 Legal Copyright and Other Notices](#311-legal-copyright-and-other-notices)
-    + [3.12 Applicable Standards](#312-applicable-standards)
- 4. [Supporting Information](#4-supporting-information)
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ## 1. Introduction
 ### 1.1 Purpose
@@ -46,29 +34,30 @@ Subsystems:
 - User live participating mode
 
 ### 1.3 Definitions, Acronyms and Abbreviations
-| Abbreviation |                                       |
-| ----------- | -------------------------------------- |
-| SRS         | Software Requirements Specification    |
-| UCD         | Use Case Diagram                       |
-| n/a         | not applicable                         |
-| FAQ         | Frequently Asked Questions             |
-| Q&A         | Question & Answers                     |
+
+| Abbreviation |                                        |
+|:------------:|:--------------------------------------:|
+| SRS          | Software Requirements Specification    |
+| UCD          | Use Case Diagram                       |
+| n/a          | not applicable                         |
+| FAQ          | Frequently Asked Questions             |
+| Q&A          | Question & Answers                     |
 
 | Definition                          |     |
-| ----------------------------------- | --- |
+|:-----------------------------------:|:---:|
 | Software Requirements Specification | Software Requirement Specification is a document, which captures the complete software requirements for the system, or a portion of the system. |
 | Use case                            | A Use case is a list of actions or event steps, typically defining the interactions between a role (known in the Unified Modeling Language as an actor) and a system, to achieve a goal. |
 
 ### 1.4 References
-|Title                                             |Date      |Publishing Organization|
-|--------------------------------------------------|----------|-----------------------|
+
+| Title                                             | Date      | Publishing Organization |
+|:-------------------------------------------------:|:---------:|:-----------------------:|
 |[Live-Poll Blog](https://blog.live-poll.de)|2020-10-18|Live-Poll              
 |[Live-Poll GitHub](https://github.com/livepoll)|2020-10-18|Live-Poll
 |[UC Create multiple choice item](use-cases/create-multiple-choice-item/README.md)|2020-10-20|Live-Poll
 |[UC Create new poll](use-cases/create-new-poll/README.md)|2020-10-20|Live-Poll
 |[UC Create item](use-cases/create-item/README.md)|2020-12-01|Live-Poll
 |[UC Login/Logout](use-cases/login-and-out/README.md)|2020-12-01|Live-Poll
-
 
 ### 1.5 Overview
 The following chapters are structured in the following way: In the next chapter `Overall Description` our vision is described and the `Use Case Diagram` gives an overview over the expected functionality. The third chapter provides more detailed information about the requirements. First, the expected features of the Live-Poll application are presented. After that, further requirements like usability, reliability or performance are listed. In the last chapter you can find supporting information.
@@ -79,7 +68,7 @@ Live-Poll embodies the vision of an open-source live-polling application that yo
 Live Poll will elevate your presentation and let you stand out from the crowd. It is an online tool allowing your audience to live-interact with the presenters, e.g. to answer questions, quizzes, multiple choice questions, word clouds and so much more.
 
 ### 2.2 Use Case Diagram
-![Live-Poll Use Case Diagram](media/live-poll-ucd.svg)
+![Live-Poll Use Case Diagram](../media/live-poll-ucd.svg)
 ## 3. Specific Requirements
 ### 3.1 Functionality
 This section lists and explains every functional requirement. Every subsystem from the UCD is represented through its own subsection.
