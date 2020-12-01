@@ -19,6 +19,6 @@ You can find all sorts of documents and material here that is related to the dev
 Topic like the software architecture are also covered.
 
 # More information
-For all those that want to follow the development progress or simply want to ask questions can have a look at our [website](https://www.live-poll.de).
+For all those who want to follow the development progress or simply want to ask questions, can have a look at our [blog](https://blog.live-poll.de).
 We provide additional information e.g. a weekly blog or FAQ there.
-For more details you can refer to our [blog](https://blog.live-poll.de).
+If you're interested in our code, please visit either our [github organization](https://github.com/livepoll) or you can refer to our [code documentation](https://code.docs.live-poll.de).
