@@ -46,22 +46,22 @@ Subsystems:
 - User live participating mode
 
 ### 1.3 Definitions, Acronyms and Abbreviations
-| Abbreviation |                                       |
-| ----------- | -------------------------------------- |
-| SRS         | Software Requirements Specification    |
-| UCD         | Use Case Diagram                       |
-| n/a         | not applicable                         |
-| FAQ         | Frequently Asked Questions             |
-| Q&A         | Question & Answers                     |
+| Abbreviation |                                        |
+|:------------:|:--------------------------------------:|
+| SRS          | Software Requirements Specification    |
+| UCD          | Use Case Diagram                       |
+| n/a          | not applicable                         |
+| FAQ          | Frequently Asked Questions             |
+| Q&A          | Question & Answers                     |
 
 | Definition                          |     |
-| ----------------------------------- | --- |
+|:-----------------------------------:|:---:|
 | Software Requirements Specification | Software Requirement Specification is a document, which captures the complete software requirements for the system, or a portion of the system. |
 | Use case                            | A Use case is a list of actions or event steps, typically defining the interactions between a role (known in the Unified Modeling Language as an actor) and a system, to achieve a goal. |
 
 ### 1.4 References
-|Title                                             |Date      |Publishing Organization|
-|--------------------------------------------------|----------|-----------------------|
+| Title                                             | Date      | Publishing Organization |
+|:-------------------------------------------------:|:---------:|:-----------------------:|
 |[Live-Poll Blog](https://blog.live-poll.de)|2020-10-18|Live-Poll              
 |[Live-Poll GitHub](https://github.com/livepoll)|2020-10-18|Live-Poll
 |[UC Create multiple choice item](use-cases/create-multiple-choice-item/README.md)|2020-10-20|Live-Poll

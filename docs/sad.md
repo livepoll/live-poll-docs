@@ -34,7 +34,7 @@ This SAD describes the architecture of the Live-Poll project. The class structur
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 | Abbrevation | Description                            |
-| ----------- | -------------------------------------- |
+|:-----------:|:--------------------------------------:|
 | API         | Application programming interface      |
 | MVC         | Model View Controller                  |
 | REST        | Representational state transfer        |
