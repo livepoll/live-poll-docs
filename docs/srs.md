@@ -34,6 +34,7 @@ Subsystems:
 - User live participating mode
 
 ### 1.3 Definitions, Acronyms and Abbreviations
+
 | Abbreviation |                                        |
 |:------------:|:--------------------------------------:|
 | SRS          | Software Requirements Specification    |
@@ -48,6 +49,7 @@ Subsystems:
 | Use case                            | A Use case is a list of actions or event steps, typically defining the interactions between a role (known in the Unified Modeling Language as an actor) and a system, to achieve a goal. |
 
 ### 1.4 References
+
 | Title                                             | Date      | Publishing Organization |
 |:-------------------------------------------------:|:---------:|:-----------------------:|
 |[Live-Poll Blog](https://blog.live-poll.de)|2020-10-18|Live-Poll              
@@ -56,7 +58,6 @@ Subsystems:
 |[UC Create new poll](use-cases/create-new-poll/README.md)|2020-10-20|Live-Poll
 |[UC Create item](use-cases/create-item/README.md)|2020-12-01|Live-Poll
 |[UC Login/Logout](use-cases/login-and-out/README.md)|2020-12-01|Live-Poll
-
 
 ### 1.5 Overview
 The following chapters are structured in the following way: In the next chapter `Overall Description` our vision is described and the `Use Case Diagram` gives an overview over the expected functionality. The third chapter provides more detailed information about the requirements. First, the expected features of the Live-Poll application are presented. After that, further requirements like usability, reliability or performance are listed. In the last chapter you can find supporting information.

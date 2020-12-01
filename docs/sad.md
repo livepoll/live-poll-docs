@@ -23,6 +23,7 @@ It is intended to capture and convey the significant architectural decisions whi
 This SAD describes the architecture of the Live-Poll project. The class structure, the use cases and the data base schema are presented.
 
 ### 1.3 Definitions, Acronyms and Abbreviations
+
 | Abbrevation | Description                            |
 |:-----------:|:--------------------------------------:|
 | API         | Application programming interface      |
@@ -73,14 +74,14 @@ This image shows the current classes in our Spring backend:
 ## 6. Process View
 n/a
 ## 7. Deployment View
-![Live-Poll deployment view](media/deployment-view.svg)
+![Live-Poll deployment view](../media/deployment-view.svg)
 ## 8. Implementation View
 n/a
 ### 8.1 Overview
 ### 8.2 Layers
 ## 9. Data View
 Database ER-Diagram:
-![Live-Poll ER-diagram](../media/er-diagram.svg)
+![Live-Poll ER-diagram](https://raw.githubusercontent.com/livepoll/live-poll-api/develop/media/er-diagram.svg)
 ## 10. Size and performance
 n/a
 ## 11. Quality
