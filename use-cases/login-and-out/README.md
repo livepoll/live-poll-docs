@@ -22,7 +22,7 @@ In this use case the user logs in.
 
 ## 2. Flow of Events
 ### 2.1 Basic Flow
-
+![Activity diagram](activity-diagram.svg)
 
 ### 2.2 Feature Files
 

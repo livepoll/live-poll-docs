@@ -58,6 +58,10 @@ Angular concept:
 
 ![Live-Poll Angular concepts](media/angular-overview.png)
 
+Spring Boot concept:
+
+![Live-Poll Spring concepts](media/spring-overview.png)
+
 ## 3. Architectural Goals and Constraints
 
 ### Server-side
@@ -77,11 +81,11 @@ This section shows an overview of the classes.
 This image shows the current classes in our Spring backend:
 ![Live-Poll Class-diagram](media/class-diagram-backend.svg)
 ## 6. Process View
-tbd
+n/a
 ## 7. Deployment View
-tbd
+![Live-Poll deployment view](media/deployment-view.svg)
 ## 8. Implementation View
-tbd
+n/a
 ### 8.1 Overview
 ### 8.2 Layers
 ## 9. Data View
