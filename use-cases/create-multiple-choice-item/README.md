@@ -6,7 +6,8 @@
     + [1.2 Mockup](#12-mockup)
 2. [Flow of Events](#2-flow-events)
     + [2.1 Basic Flow](#21-basic-flow)
-    + [2.2 Alternative Flows](#22-alternative-flows)
+    + [2.2 Feature Files](#22-feature-files)
+    + [2.3 Alternative Flows](#23-alternative-flows)
 3. [Special Requirements](#3-special-requirements)
 4. [Preconditions](#4-preconditions)
 5. [Postconditions](#5-postconditions)
@@ -27,7 +28,42 @@ In this use case the user can create a new multiple choice poll item. A multiple
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 ![Activity diagram](activity-diagram.svg)
-### 2.2 Alternative Flows
+
+### 2.2 Feature Files
+```gherkin
+Feature: Create Multiple Choice Item
+
+  Scenario: Create new multiple choice item successfully
+    Given User is logged in
+    And User has created a new poll
+    And User opened new poll item menu
+    When I select multiple choice item type
+    And I enter "Idee" into input field with id "input-question"
+    And I enter "Antwort 1" as answer option 1
+    And I enter "Antwort 2" as answer option 2
+    And I enter "Antwort 3" as answer option 3
+    And I click on button with id "btn-save"
+    Then Notification with text "Poll item successfully created" is displayed
+
+  Scenario: Create new poll item but don't choose item type
+    Given User is logged in
+    And User has created a new poll
+    And User opened new poll item menu
+    When I select no item type
+    And I click on button with id "btn-next-step"
+    Then Notification with text "Please select item type" is displayed
+
+  Scenario: Create new multiple choice item with only one answer
+    Given User is logged in
+    And User has created a new poll
+    And User opened new poll item menu
+    When I select multiple choice item type
+    And I enter "Idee" into input field with id "input-question"
+    And I enter "Antwort 1" as answer option 1
+    And I click on button with id "btn-save"
+    Then Notification with text "Please enter more than one answer" is displayed
+```
+### 2.3 Alternative Flows
 n/a
 ## 3. Special Requirements
 n/a
