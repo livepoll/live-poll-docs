@@ -1,33 +1,34 @@
+---
+layout: default
+title: Create Muliple Choice Item
+nav_order: 3
+has_children: true
+parent: Use cases
+grand_parent: Project management
+---
 # Use Case Specification: Create multiple choice item
+{: .no_toc }
 
 ## Table of contents
-1. [Create multiple choice item](#1-create-multiple-choice-item)
-    + [1.1 Brief Description](#11-brief-descsription)
-    + [1.2 Mockup](#12-mockup)
-2. [Flow of Events](#2-flow-events)
-    + [2.1 Basic Flow](#21-basic-flow)
-    + [2.2 Feature Files](#22-feature-files)
-    + [2.3 Alternative Flows](#23-alternative-flows)
-3. [Special Requirements](#3-special-requirements)
-4. [Preconditions](#4-preconditions)
-5. [Postconditions](#5-postconditions)
-6. [Extension Points](#6-extension-points)
+{: .no_toc .text-delta }
 
+1. TOC
+{:toc}
 
 ## 1. Create multiple choice item
 ### 1.1 Brief Description
 In this use case the user can create a new multiple choice poll item. A multiple choice item consists of a question and two or more possible answers.
 ### 1.2 Mockup
 #### Select item
-![Mock-1](step-1.png)
+![Mock-1](../../media/use-cases/create-multiple-choice-item/step-1.png)
 #### Enter question / answers
-![Mock-2](step-2.png)
+![Mock-2](../../media/use-cases/create-multiple-choice-item/step-2.png)
 #### Options
-![Mock-3](step-3.png)
+![Mock-3](../../media/use-cases/create-multiple-choice-item/step-3.png)
 
 ## 2. Flow of Events
 ### 2.1 Basic Flow
-![Activity diagram](activity-diagram.svg)
+![Activity diagram](../../media/use-cases/create-multiple-choice-item/activity-diagram.svg)
 
 ### 2.2 Feature Files
 ```gherkin
