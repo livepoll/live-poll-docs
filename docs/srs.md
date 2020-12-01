@@ -79,7 +79,7 @@ Live-Poll embodies the vision of an open-source live-polling application that yo
 Live Poll will elevate your presentation and let you stand out from the crowd. It is an online tool allowing your audience to live-interact with the presenters, e.g. to answer questions, quizzes, multiple choice questions, word clouds and so much more.
 
 ### 2.2 Use Case Diagram
-![Live-Poll Use Case Diagram](media/live-poll-ucd.svg)
+![Live-Poll Use Case Diagram](../media/live-poll-ucd.svg)
 ## 3. Specific Requirements
 ### 3.1 Functionality
 This section lists and explains every functional requirement. Every subsystem from the UCD is represented through its own subsection.

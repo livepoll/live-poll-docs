@@ -51,16 +51,16 @@ The following chapters contain the architectural design, goals, constraints and 
 ## 2. Architectural Representation
 Principle of a REST API:
 
-![Live-Poll RESTful](media/restful.png)
+![Live-Poll RESTful](../media/restful.png)
 
 
 Angular concept:
 
-![Live-Poll Angular concepts](media/angular-overview.png)
+![Live-Poll Angular concepts](../media/angular-overview.png)
 
 Spring Boot concept:
 
-![Live-Poll Spring concepts](media/spring-overview.png)
+![Live-Poll Spring concepts](../media/spring-overview.png)
 
 ## 3. Architectural Goals and Constraints
 
@@ -71,7 +71,7 @@ In order to be able to develop the frontend and backend independently of one ano
 On the client side we use Angular to develop a modern single-page client application.
 
 ## 4. Use-Case View
-![Live-Poll Use Case Diagram](media/live-poll-ucd.svg)
+![Live-Poll Use Case Diagram](../media/live-poll-ucd.svg)
 ### 4.1 Use-Case Realizations
 Each use case is individually documented. All use cases are linked in our [SRS](srs.md).
 ## 5 Logical View
@@ -79,7 +79,7 @@ Each use case is individually documented. All use cases are linked in our [SRS](
 This section shows an overview of the classes.
 ### 5.2 Architecturally Significant Design Packages
 This image shows the current classes in our Spring backend:
-![Live-Poll Class-diagram](media/class-diagram-backend.svg)
+![Live-Poll Class-diagram](../media/class-diagram-backend.svg)
 ## 6. Process View
 n/a
 ## 7. Deployment View
@@ -90,7 +90,7 @@ n/a
 ### 8.2 Layers
 ## 9. Data View
 Database ER-Diagram:
-![Live-Poll ER-diagram](https://github.com/livepoll/live-poll-api/blob/develop/media/er-diagram.svg)
+![Live-Poll ER-diagram](../media/er-diagram.svg)
 ## 10. Size and performance
 n/a
 ## 11. Quality
