@@ -67,10 +67,19 @@ On the client side we use Angular to develop a modern single-page client applica
 Each use case is individually documented. All use cases are linked in our [SRS](srs.md).
 ## 5 Logical View
 ### 5.1 Overview
-This section shows an overview of the classes.
+This section shows an overview of the classes. Due to the lack of full support for generating class diagrams at Kotlin, no relationships between the models, the controllers and the services are shown.
 ### 5.2 Architecturally Significant Design Packages
-This image shows the current classes in our Spring backend:
+This image shows the current database models in our Spring backend:
+
 ![Live-Poll Class-diagram](../media/class-diagram-backend.svg)
+
+This are the current controllers:
+
+![Live-Poll Class-diagram](../media/class-diagram-controller.svg)
+
+And this are our current services:
+
+![Live-Poll Class-diagram](../media/class-diagram-service.svg)
 ## 6. Process View
 n/a
 ## 7. Deployment View
