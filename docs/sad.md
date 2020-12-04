@@ -20,7 +20,7 @@ using a number of different architectural views to depict different aspects of t
 It is intended to capture and convey the significant architectural decisions which have been made on the system.
 
 ### 1.2 Scope
-This SAD describes the architecture of the Live-Poll project. The class structure, the use cases and the data base schema are presented.
+This SAD describes the architecture of the Live-Poll project. It presents the class structure, the use cases and the data base schema.
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 
@@ -56,7 +56,7 @@ Spring Boot concept:
 ## 3. Architectural Goals and Constraints
 
 ### Server-side
-In order to be able to develop the frontend and backend independently of one another, we decided to create a REST Api. This also gives us the opportunity to develop other clients in addition to the angular app that is currently under development, such as a PowerPoint plugin.
+In order to be able to develop the frontend and backend independently of one another, we decided to create a REST API with a flexible interface to communicate. This also gives us the opportunity to develop other clients in addition to the Angular app that is currently under development, such as a PowerPoint plugin.
 
 ### Client-side
 On the client side we use Angular to develop a modern single-page client application.
@@ -67,9 +67,9 @@ On the client side we use Angular to develop a modern single-page client applica
 Each use case is individually documented. All use cases are linked in our [SRS](srs.md).
 ## 5 Logical View
 ### 5.1 Overview
-This section shows an overview of the classes. Due to the lack of full support for generating class diagrams at Kotlin, no relationships between the models, the controllers and the services are shown.
+This section shows an overview of the classes. Due to the lack of full Kotlin support for generating class diagrams, the diagram does not show relationships between the models, controllers or services.
 ### 5.2 Architecturally Significant Design Packages
-This image shows the current database models in our Spring backend:
+This image shows the current database model for our MySQL database, connected to our Spring backend:
 
 ![Live-Poll Class-diagram](../media/class-diagram-backend.svg)
 
@@ -94,4 +94,4 @@ Database ER-Diagram:
 ## 10. Size and performance
 n/a
 ## 11. Quality
-To ensure a good code quality and to avoid bugs each pull request is automatically checked by SonarQube. Furthermore at least one review is required to merge the pull request.
+To ensure a good code quality and to avoid bugs, each pull request is automatically checked / rated by SonarQube. Furthermore at least one review is required to merge a pull request in both of our main repositories.
