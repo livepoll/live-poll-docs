@@ -95,3 +95,5 @@ Database ER-Diagram:
 n/a
 ## 11. Quality
 To ensure a good code quality and to avoid bugs, each pull request is automatically checked / rated by SonarQube. Furthermore at least one review is required to merge a pull request in both of our main repositories.
+
+© Live-Poll 2020-2021

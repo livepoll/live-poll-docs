@@ -56,3 +56,5 @@ Following preconditions are needed:
 The created poll must be saved on the server.
 ## 6. Extension Points
 tbd
+
+© Live-Poll 2020-2021

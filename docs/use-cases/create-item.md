@@ -40,3 +40,5 @@ Following preconditions are needed:
 The created poll item must be saved on the server.
 ## 6. Extension Points
 n/a
+
+© Live-Poll 2020-2021
