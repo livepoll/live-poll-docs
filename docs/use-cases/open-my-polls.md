@@ -40,5 +40,3 @@ Following preconditions are needed:
 n/a
 ## 6. Extension Points
 n/a
-
-© Live-Poll 2020-2021

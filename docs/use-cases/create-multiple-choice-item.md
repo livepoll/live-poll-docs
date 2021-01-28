@@ -76,5 +76,3 @@ Following preconditions are needed:
 Once the user created a new multiple choice item, it must be saved on the server.
 ## 6. Extension Points
 tbd
-
-© Live-Poll 2020-2021

@@ -131,5 +131,3 @@ The following code standards are going to be applied to the code as far as possi
 
 ## 4. Supporting Information
 For more information visit our [blog](https://blog.live-poll.de) or contact us: contact@live-poll.de
-
-© Live-Poll 2020-2021

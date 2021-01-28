@@ -39,5 +39,3 @@ Following preconditions are needed:
 The user must get a JWT token.
 ## 6. Extension Points
 n/a
-
-© Live-Poll 2020-2021
