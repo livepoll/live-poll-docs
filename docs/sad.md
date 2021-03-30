@@ -40,26 +40,22 @@ This SAD describes the architecture of the Live-Poll project. It presents the cl
 ### 1.5 Overview
 The following chapters contain the architectural design, goals, constraints and data views.
 ## 2. Architectural Representation
-Principle of a REST API:
+In order to communicate between client and server, we follow the REST principle. How this works can be seen here:
 
 ![Live-Poll RESTful](../media/restful.png)
-
-
-Angular concept:
-
-![Live-Poll Angular concepts](../media/angular-overview.png)
-
-Spring Boot concept:
-
-![Live-Poll Spring concepts](../media/spring-overview.png)
 
 ## 3. Architectural Goals and Constraints
 
 ### Server-side
-In order to be able to develop the frontend and backend independently of one another, we decided to create a REST API with a flexible interface to communicate. This also gives us the opportunity to develop other clients in addition to the Angular app that is currently under development, such as a PowerPoint plugin.
+In order to be able to develop the frontend and backend independently of one another, we decided to create a REST API with a flexible interface to communicate. This also gives us the opportunity to develop other clients in addition to the Angular app that is currently under development, such as a PowerPoint plugin. To develop the REST API we use the Spring Boot framerwork. Here you can see an overview of the Spring Boot concept:
+
+![Live-Poll Spring concepts](../media/spring-overview.png) 
+
 
 ### Client-side
-On the client side we use Angular to develop a modern single-page client application.
+On the client side we use Angular to develop a modern single-page client application. Here you can see an overview of the Angular concept:
+
+![Live-Poll Angular concepts](../media/angular-overview.png)
 
 ## 4. Use-Case View
 ![Live-Poll Use Case Diagram](../media/live-poll-ucd.svg)
