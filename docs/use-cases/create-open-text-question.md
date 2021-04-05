@@ -20,6 +20,9 @@ grand_parent: Project management
 In this use case the user can create a new open text question. In the case of an open text question, a question is displayed and each participant has an empty input field in which he can type his answer.
 ### 1.2 Mockup
 #### Select item
+![Mock-1](../../media/use-cases/create-open-text-item/step-1.png)
+#### Enter question
+![Mock-2](../../media/use-cases/create-open-text-item/step-2.png)
 
 ## 2. Flow of Events
 ### 2.1 Basic Flow

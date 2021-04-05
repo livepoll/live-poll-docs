@@ -19,7 +19,10 @@ grand_parent: Project management
 ### 1.1 Brief Description
 In this use case the user can customize the url with which one arrives at the poll.
 ### 1.2 Mockup
-#### Select item
+#### Default view
+![Mock-1](../../media/use-cases/edit-custom-url-slug/step-1.png)
+#### Edit slug
+![Mock-2](../../media/use-cases/edit-custom-url-slug/step-2.png)
 
 ## 2. Flow of Events
 ### 2.1 Basic Flow
