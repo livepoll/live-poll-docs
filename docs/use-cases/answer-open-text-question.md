@@ -19,6 +19,7 @@ grand_parent: Project management
 ### 1.1 Brief Description
 In this use case, the participant can enter his answer to a question in a text field.
 ### 1.2 Mockup
+![Mock](../../media/use-cases/answer-open-text-question/step-1.png)
 
 ## 2. Flow of Events
 ### 2.1 Basic Flow
