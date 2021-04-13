@@ -58,6 +58,13 @@ Subsystems:
 |[UC Create new poll](use-cases/create-new-poll.md)|2020-10-20|Live-Poll
 |[UC Create item](use-cases/create-item.md)|2020-12-01|Live-Poll
 |[UC Login/Logout](use-cases/login-and-out.md)|2020-12-01|Live-Poll
+|[UC Sign up](use-cases/sign-up.md)|2021-04-13|Live-Poll
+|[UC Create open text question](use-cases/create-open-text-question.md)|2021-04-13|Live-Poll
+|[UC Answer open text question](use-cases/answer-open-text-question.md)|2021-04-13|Live-Poll
+|[UC Edit custom URL slug](use-cases/edit-custom-url-slug.md)|2021-04-13|Live-Poll
+|[UC Navigate to specific poll](use-cases/navigate-to-specific-poll.md)|2021-04-13|Live-Poll
+|[UC Open my polls](use-cases/open-my-polls.md)|2021-04-13|Live-Poll
+|[UC Open poll items](use-cases/open-poll-items.md)|2021-04-13|Live-Poll
 
 ### 1.5 Overview
 The following chapters are structured in the following way: In the next chapter `Overall Description` our vision is described and the `Use Case Diagram` gives an overview over the expected functionality. The third chapter provides more detailed information about the requirements. First, the expected features of the Live-Poll application are presented. After that, further requirements like usability, reliability or performance are listed. In the last chapter you can find supporting information.
