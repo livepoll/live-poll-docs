@@ -10,6 +10,9 @@ parent: Project management
 ## Table of contents
 {: .no_toc .text-delta }
 
+1. TOC
+{:toc}
+
 ## 1.	Introduction
 ### 1.1	Purpose
 The purpose of the Iteration Test Plan is to gather all of the information necessary to plan and control the test effort for a given iteration. 
@@ -28,14 +31,14 @@ This document is primarily intended for internal use and not for users of the ap
 
 ### 1.4	Document Terminology and Acronyms
 | Abbreviation |                                        |
-|:------------:|:--------------------------------------:|
+|------------|--------------------------------------|
 | SRS          | Software Requirements Specification    |
 | UCD          | Use Case Diagram                       |
 | n/a          | not applicable                         |
 
 ### 1.5	 References
-| Reference        | 
-| ------------- |
+| Reference| 
+| --- |
 | [SAD](./sad.md) | 
 | [UseCases](./use-cases) |
             
