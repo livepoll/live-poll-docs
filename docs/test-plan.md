@@ -30,17 +30,19 @@ This document describes the tests that are used during development. For this pro
 This document is primarily intended for internal use and not for users of the application.
 
 ### 1.4	Document Terminology and Acronyms
-| Abbreviation |                                        |
-|------------|--------------------------------------|
-| SRS          | Software Requirements Specification    |
-| UCD          | Use Case Diagram                       |
-| n/a          | not applicable                         |
+
+| Abbreviation | Description                         |
+|--------------|-------------------------------------|
+| SRS          | Software Requirements Specification |
+| UCD          | Use Case Diagram                    |
+| n/a          | not applicable                      |
 
 ### 1.5	 References
-| Reference | 
-| --- |
-| [SAD](./sad.md) | 
-| [UseCases](./use-cases) |
+
+| Resource  | Reference           |
+|-----------|---------------------|
+| SAD       | [visit](./sad.md)   |
+| Use cases |[visit](./use-cases) |
             
 ## 2.	Evaluation Mission and Test Motivation
 ### 2.1	Background
@@ -74,24 +76,26 @@ n/a
 n/a
 ### 5.2	Testing Techniques and Types
 #### 5.2.1 Backend Unit Testing
-| | |
-|---|---|
-|Technique Objective  	| The backend should be started and several tests should be carried out to find out whether everything is working correctly. |
-|Technique 		| All requests to the backend should be tested using the JUnit Framework. A separate database should be used for the tests so that no test data is stored on the productively used database. Here it is advisable to use an in-memory database with the same database technology. |
-|Oracles 		| The endpoints return the correct and expected data and the corresponding HTTP response codes. |
-|Required Tools 	| JUnit 4 Dependencies|
-|Success Criteria	| correct answers, passing tests and correct HTTP response codes|
-|Special Considerations	| - |
+
+| Step                   | Description                                                                                                                                                                                                                                                                     |
+|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Technique Objective    | The backend should be started and several tests should be carried out to find out whether everything is working correctly.                                                                                                                                                      |
+| Technique 	         | All requests to the backend should be tested using the JUnit Framework. A separate database should be used for the tests so that no test data is stored on the productively used database. Here it is advisable to use an in-memory database with the same database technology. |
+| Oracles 		 | The endpoints return the correct and expected data and the corresponding HTTP response codes.                                                                                                                                                                                   |
+| Required Tools 	 | JUnit 4 Dependencies                                                                                                                                                                                                                                                            |
+| Success Criteria	 | correct answers, passing tests and correct HTTP response codes                                                                                                                                                                                                                  |
+| Special Considerations | -                                                                                                                                                                                                                                                                               |
 
 #### 5.2.2 Backend Integration Testing
-| | |
-|---|---|
-|Technique Objective  	| The backend should be started and several tests should be carried out to find out whether everything is working correctly. |
-|Technique 		| A Postman Collection is used to test all existing endpoints. |
-|Oracles 		| The endpoints return the correct and expected data and the corresponding HTTP response codes. |
-|Required Tools 	| Postman |
-|Success Criteria	| passing tests and correct HTTP response codes |
-|Special Considerations	| - |
+
+| Step                   | Description                                                                                                                |
+|------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| Technique Objective  	 | The backend should be started and several tests should be carried out to find out whether everything is working correctly. |
+| Technique 	         | A Postman Collection is used to test all existing endpoints.                                                               |
+| Oracles 		 | The endpoints return the correct and expected data and the corresponding HTTP response codes.                              |
+| Required Tools 	 | Postman                                                                                                                    |
+| Success Criteria	 | passing tests and correct HTTP response codes                                                                              |
+| Special Considerations | -                                                                                                                          |
 
 ## 6.	Entry and Exit Criteria
 ### 6.1	Test Plan
@@ -132,11 +136,11 @@ This section presents the non-human resources required for the Test Plan.
 ### 9.1	Base System Hardware
 The following table sets forth the system resources for the test effort presented in this Test Plan.
 
-| Resource | Quantity | Name and Type |
-|---|---|---|
-| Local test machine | 1 | Own notebook|
-| Production Server | 1 | API provider / Frontend provider / Database|
-| GitHub CI/CD | 1 | Testing, building and deploying application |
+| Resource           | Quantity | Name and Type                               |
+|--------------------|----------|---------------------------------------------|
+| Local test machine | 1        | Own notebook                                |
+| Production Server  | 1        | API provider / Frontend provider / Database |
+| GitHub CI/CD       | 1        | Testing, building and deploying application |
 
 ### 9.2	Base Software Elements in the Test Environment
 The following base software elements are required in the test environment for this Test Plan.
@@ -150,12 +154,12 @@ The following base software elements are required in the test environment for th
 ### 9.3	Productivity and Support Tools
 The following tools will be employed to support the test process for this Test Plan.
 
-| Tool Category or Type | Tool Brand Name                              |
-|-----------------------|----------------------------------------------|
-| Repository          | [GitHub](https://github.com/) |
-| CI/CD Service      |  [GitHub actions](https://github.com/features/actions) |
-| Metrics            |  [Codecov](https://about.codecov.io/) |
-| Metrics            |  [Sonarqube](https://www.sonarqube.org/) |
+| Tool Category or Type | Tool Brand Name                                       |
+|-----------------------|-------------------------------------------------------|
+| Repository            | [GitHub](https://github.com/)                         |
+| CI/CD Service         | [GitHub actions](https://github.com/features/actions) |
+| Metrics               | [Codecov](https://about.codecov.io/)                  |
+| Metrics               | [Sonarqube](https://www.sonarqube.org/)               |
 
 ### 9.4	Test Environment Configurations
 n/a 
@@ -166,30 +170,30 @@ This table shows the staffing assumptions for the test effort.
 
 Human Resources
 
-
-| Role | Specific Responsibilities or Comments |
-|------|---------------------------------------|
-| Test Manager |  Provides management oversight|
-| Test Designer | Defines the technical approach to the implementation of the test effort|
-| Tester | 	Implements and executes the tests
-| Test System Administrator |  Ensures test environment and assets are managed and maintained| 
-| Database Administrator, Database Manager |  Ensures test data (database) environment and assets are managed and maintained|
-| Implementer | Implements and unit tests the test classes and test packages|
+| Role                                     | Specific Responsibilities or Comments                                          |
+|------------------------------------------|--------------------------------------------------------------------------------|
+| Test Manager                             | Provides management oversight                                                  |
+| Test Designer                            | Defines the technical approach to the implementation of the test effort        |
+| Tester                                   | Implements and executes the tests                                              |
+| Test System Administrator                | Ensures test environment and assets are managed and maintained                 | 
+| Database Administrator, Database Manager | Ensures test data (database) environment and assets are managed and maintained |
+| Implementer                              | Implements and unit tests the test classes and test packages                   |
 
 ### 10.2	Staffing and Training Needs
 n/a
 
 ## 11.	Iteration Milestones
 
-| Milestone | Start Date |  Finished | 
-|---|---|---|
-| Have Unit Tests with 20% coverage | 01.05.2021 | tbd | 
-| Tests integrated in CI | Start of first semester | End of first semester | 
-| Postman Testing | Start of second semester | 02.05.2021 | 
+| Milestone                         | Start Date               |  Finished             | 
+|-----------------------------------|--------------------------|-----------------------|
+| Have Unit Tests with 20% coverage | 01.05.2021               | tbd                   | 
+| Tests integrated in CI            | Start of first semester  | End of first semester | 
+| Postman Testing                   | Start of second semester | 02.05.2021            | 
 
 ## 12.	Risks, Dependencies, Assumptions, and Constraints
-| Risk | Mitigation Strategy	| Contingency (Risk is realized) |
-|---|---|---|
+
+| Risk                                     | Mitigation Strategy                 | Contingency (Risk is realized) |
+|------------------------------------------|-------------------------------------|--------------------------------|
 | Unexpected failures in production system | Cover as many scenarios as possible | Note CI / CD logs when pushing |
 
 ## 13. Management Process and Procedures
