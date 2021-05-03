@@ -37,7 +37,7 @@ This document is primarily intended for internal use and not for users of the ap
 | n/a          | not applicable                         |
 
 ### 1.5	 References
-| Reference| 
+| Reference | 
 | --- |
 | [SAD](./sad.md) | 
 | [UseCases](./use-cases) |
@@ -74,24 +74,24 @@ n/a
 n/a
 ### 5.2	Testing Techniques and Types
 #### 5.2.1 Backend Unit Testing
-|| |
+| | |
 |---|---|
 |Technique Objective  	| The backend should be started and several tests should be carried out to find out whether everything is working correctly. |
-|Technique 		|  All requests to the backend should be tested using the JUnit Framework. A separate database should be used for the tests so that no test data is stored on the productively used database. Here it is advisable to use an in-memory database with the same database technology. |
+|Technique 		| All requests to the backend should be tested using the JUnit Framework. A separate database should be used for the tests so that no test data is stored on the productively used database. Here it is advisable to use an in-memory database with the same database technology. |
 |Oracles 		| The endpoints return the correct and expected data and the corresponding HTTP response codes. |
 |Required Tools 	| JUnit 4 Dependencies|
 |Success Criteria	| correct answers, passing tests and correct HTTP response codes|
-|Special Considerations	|     -          |
+|Special Considerations	| - |
 
 #### 5.2.2 Backend Integration Testing
-|| |
+| | |
 |---|---|
 |Technique Objective  	| The backend should be started and several tests should be carried out to find out whether everything is working correctly. |
-|Technique 		|  A Postman Collection is used to test all existing endpoints. |
+|Technique 		| A Postman Collection is used to test all existing endpoints. |
 |Oracles 		| The endpoints return the correct and expected data and the corresponding HTTP response codes. |
 |Required Tools 	| Postman |
-|Success Criteria	|  passing tests and correct HTTP response codes|
-|Special Considerations	|     -          |
+|Success Criteria	| passing tests and correct HTTP response codes |
+|Special Considerations	| - |
 
 ## 6.	Entry and Exit Criteria
 ### 6.1	Test Plan
