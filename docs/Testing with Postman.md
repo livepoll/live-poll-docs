@@ -12,6 +12,7 @@ parent: Project management
 
 ## Testing
 In order to be able to test our endpoints quickly and easily during development, we use Postman. In Postman we have created a collection, which helps us to send individual queries to certain endpoints. You can see the current state of our collection below. Furthermore we use Postman to create an integration test and test all endpoints at once.
+
 ![Collection](../media/postman/collection.PNG)
 
 ### Integration Test
