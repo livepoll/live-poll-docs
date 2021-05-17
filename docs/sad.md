@@ -67,7 +67,9 @@ This section shows an overview of the classes. Due to the lack of full Kotlin su
 ### 5.2 Architecturally Significant Design Packages
 This image shows the current database model for our MySQL database, connected to our Spring backend:
 
-![Live-Poll Class-diagram](../media/class-diagram-backend.svg)
+![Live-Poll Class-diagram](../media/class-diagram-with-answer-inheritance.svg)
+
+The marked classes have been revised with the composite design pattern.
 
 This are the current controllers:
 
