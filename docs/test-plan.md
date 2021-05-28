@@ -198,3 +198,8 @@ n/a
 
 ## 13. Management Process and Procedures
 n/a
+
+## 14. Documentation on deployment process
+At a later point in time in our project, we analyzed the backend with the help of metrics. We used the tool Sonarqube for this. Since we already did detailed [code reviews](https://github.com/livepoll/live-poll-api/pull/84) when pushing new changes and paid attention to good code quality, Sonarqube could not find any problems. Below can see our [Sonarqube metrics overview](https://sonarqube.live-poll.de/component_measures?id=live-poll-api): 
+
+![Sonarqube metrics](../media/sonarqube-metrics-overview.png)
